@@ -1,4 +1,4 @@
-# Tensorflow Light Micro examples
+# Tensorflow Lite Micro examples
 
 This repository is an example how to use tensorflow with a microcontroller.
 The example is using a `GY521` sensor to detect and recognise *standing*, *walking* and *running*.  
@@ -23,7 +23,7 @@ Please check on every update if the output by train.py equals the array `ACTIVIT
     - `requirements.txt` - python module requirements
     - `train.py` - python code to generate a tensorflow model
 - `src` - microcontroller code
-    - `NeuralNetwork.cpp` - Tensorflow Light Wrapper by [@atomic14](https://github.com/atomic14/tensorflow-lite-esp32/blob/master/firmware/src/NeuralNetwork.cpp)
+    - `NeuralNetwork.cpp` - Tensorflow lite Wrapper by [@atomic14](https://github.com/atomic14/tensorflow-lite-esp32/blob/master/firmware/src/NeuralNetwork.cpp)
     - `main.cpp` - main arduino framework code
 
 
